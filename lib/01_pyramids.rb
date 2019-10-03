@@ -55,24 +55,24 @@ def wtf_pyramid
 	puts "Voici la pyramide :"
 	x = "#"
 	o = " "
-	l = 1
+	level = 1
 	down = niveau / 2
 	niveau.times do
  	 	break if niveau == 0
 	 	if niveau > half
 			print o * niveau
-			print x * l
-				print x * (l - 1)
+			print x * level
+				print x * (level - 1)
 			puts o * niveau
-			l += 1
+			level += 1
 			niveau -= 1
 		else 
-			until l == 0 do
+			until level == 0 do
 					print o * down
-				print x * l
-				print x * (l - 1)
+				print x * level
+				print x * (level - 1)
 				puts o * down
-				l -= 1
+				level -= 1
 				down += 1	
 			end
 		end

@@ -2,6 +2,11 @@ def sign_up ()
 	puts "Définir mot de passe :"
 	print "> "
 	mdp = gets.chomp.to_s
+	until mdp != "" do
+		puts "Mot de passe invalide"
+		print "> " 
+		mdp = gets.chomp.to_s
+	end
 	return mdp
 end 
 
