@@ -1,1 +1,1 @@
-Mesdames et Messieurs, ce repository a était crée en Pair-Learning par l'incroyables groupes de Moussaillons Montpellierains !
+Mesdames et Messieurs, ce repository a été créé en Pair-Learning par l'incroyable groupe de Moussaillons Montpellierains !
